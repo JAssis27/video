@@ -1,0 +1,113 @@
+body {
+    background-image: url("https://wallpapers.com/images/hd/dark-souls-sen-s-fortress-midnight-cover-r3kmsq1hcnytrhxw.webp");
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative; 
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+li {
+    list-style: none;
+}
+
+.Eu {
+    position: absolute;
+    background-image: url(Eu.jpg);
+    width: 500px;
+    height: 500px;
+    z-index: 10; 
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 1%;
+    transform: translate(-50, -50);
+}
+
+nav {
+    display: flex; 
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+section {
+    
+    position: absolute;
+    background-position: right;
+    margin-top: 10%;
+    margin-left: 60%;
+    width: 30%; 
+    max-width: 900px; 
+    height: 1000px; 
+    z-index: 1000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"], form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover, form button:hover {
+    background: #555;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
